@@ -24,5 +24,7 @@
         "./db/*"
       ]
     }
-  }
+  },
+  "include": ["src", "db", "contracts"],
+  "exclude": ["node_modules", "dist", "api"]
 }
